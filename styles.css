@@ -1,0 +1,145 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+}
+
+table td.skill {
+    width: 120px;
+    text-align: center;
+    background-color: #f0f0f0;
+    text-align: center; /* Horizontal alignment */
+    vertical-align: middle; /* Vertical alignment */
+}
+
+table td.skill img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+table td.skill span {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+textarea {
+    width: 100%;
+    height: 40px;
+    resize: none;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.common-effects,
+.hand-of-destiny {
+    margin-bottom: 20px;
+}
+
+.common-effects h3,
+.hand-of-destiny h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+
+/* Dropdown Styling */
+.effect {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.effect:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Actions Section */
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.actions button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actions button:hover {
+    background-color: #45a049;
+}
+
+/* General dropdown style */
+.effect {
+    width: 100%;
+    height: 40px;
+    font-size: 0.9rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.effect:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Colors for options (applied dynamically via JS) */
+.effect option {
+    font-weight: bold;
+    color: black; /* Default fallback */
+}
+
